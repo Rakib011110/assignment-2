@@ -8,20 +8,20 @@
 
 /* ===========top-section-style======= */
 .top-section {
-    display: flex;
 
+
+    display: flex;
     justify-content: space-around;
     padding: 50px;
     background-color: black;
-    height: 300px;
-    margin: 50px;
-    padding: 50px;
+    height: 238px;
+    margin: 29px;
+    padding: -1px;
     border-radius: 20px;
-    align-items: flex-end;
-
-
-
+    align-items: center;
 }
+
+
 
 
 .top-h2 {
@@ -55,7 +55,13 @@
     border-radius: 10px;
     margin-top: 10px;
 
+
 }
+
+.top-button:hover {
+    background: orangered;
+}
+
 
 .top-button a {
     color: white;
@@ -85,10 +91,13 @@
 
 .mid-btn {
     height: 276px;
-    margin-top: 40px;
+    margin-top: 120px;
 
     background: black;
-    width: 191px
+    width: 250px;
+    text-align: center;
+    margin-left: 51px;
+
 }
 
 
@@ -113,10 +122,20 @@
 
 }
 
+.mid-btn2 button:hover {
+    background-color: #E02C6D;
+
+}
+
 .mid-btn3 button {
     padding: 10px 77px;
     margin-top: 20px;
     border-radius: 5px;
+}
+
+.mid-btn3 button:hover {
+    background-color: #E02C6D;
+
 }
 
 .blog-img {
@@ -131,9 +150,10 @@
     align-items: center;
     margin: 30px;
     box-shadow: 0px 1px 4px 0px gray;
-    height: 200px;
+    height: 270px;
     width: 250px;
-    left: 476px;
+
+    margin: 110px;
 
 
 
@@ -155,18 +175,22 @@
     padding: 10px;
 }
 
+.blog-img p {
+    color: gray;
+}
+
 
 
 
 /* ---more-section--- */
 .blog-img2 {
     display: flex;
-    justify-content: space-evenly;
+
     padding: 37px;
     margin-left: 247px;
     margin-top: -50px;
     border-radius: 10px;
-
+    justify-content: center;
 }
 
 
@@ -195,8 +219,8 @@
 .footer-div {
     text-align: center;
     height: 100px;
-    width: 100%;
-    margin-left: 50px;
+    width: 90%;
+    margin-left: 88px;
     box-shadow: 0px 1px 0px 0px grey;
 }
 
@@ -205,7 +229,7 @@ nav {
     justify-content: space-around;
     margin-top: 60px;
     padding: 50px;
-
+    margin-right: 80px;
 
 }
 
@@ -213,6 +237,7 @@ nav a {
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
+
 
 }
 

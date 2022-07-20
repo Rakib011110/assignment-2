@@ -75,6 +75,11 @@
 
 }
 
+.top-button:hover {
+    background: orangered;
+}
+
+
 
 
 
@@ -113,6 +118,12 @@
     border-radius: 5px;
 }
 
+.mid-btn1 button:hover {
+    background-color: #E02C6D;
+
+}
+
+
 .mid-btn2 button {
     padding: 10px 60px;
     margin-top: 20px;
@@ -120,12 +131,21 @@
 
 }
 
+.mid-btn2 button:hover {
+    background-color: #E02C6D;
+
+}
+
+
 .mid-btn3 button {
     padding: 10px 77px;
     margin-top: 20px;
     border-radius: 5px;
     background-color: #E02C6D;
 }
+
+
+
 
 .blog-img {
     display: flex;
@@ -175,8 +195,8 @@
 .blog-img2 {
     display: flex;
     justify-content: space-evenly;
-    padding: 37px;
-    margin-left: 247px;
+    padding: 31px;
+    margin-left: 300px;
     margin-top: -50px;
     border-radius: 10px;
 
@@ -187,7 +207,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 37px;
-    margin-left: 247px;
+    margin-left: 300px;
     margin-top: -90px;
     border-radius: 10px;
 
@@ -218,7 +238,7 @@
 
 .footer-div {
     text-align: center;
-    height: 100px;
+    height: 104px;
     width: 95%;
     margin-left: 50px;
     box-shadow: 0px 1px 0px 0px grey;
@@ -267,7 +287,8 @@ nav a {
     .top-section {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 155px;
+        margin-left: -20px;
+        width: 100%;
     }
 
     .top-botton {
@@ -341,6 +362,7 @@ nav a {
     .footer-section {
         flex-direction: column;
         align-items: flex-end;
+        margin: 0;
 
 
     }
@@ -352,7 +374,7 @@ nav a {
     nav {
         flex-direction: column;
         align-items: flex-end;
-        margin: 70px;
+        margin: 26px;
 
     }
 }
