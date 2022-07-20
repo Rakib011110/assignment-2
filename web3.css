@@ -83,6 +83,13 @@
 
 }
 
+.mid-btn {
+    height: 276px;
+    margin-top: 40px;
+
+    background: black;
+    width: 191px
+}
 
 
 .mid-btn a {

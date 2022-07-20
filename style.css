@@ -89,7 +89,14 @@
     display: flex;
     justify-content: space-evenly;
 
+}
 
+.mid-btn {
+    height: 276px;
+    margin-top: 40px;
+
+    background: black;
+    width: 191px
 }
 
 
