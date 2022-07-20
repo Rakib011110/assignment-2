@@ -64,6 +64,8 @@
     text-decoration: none;
 }
 
+
+
 /* -----------mid----section--- */
 .mid-btn {
     display: block;
@@ -93,6 +95,8 @@
     padding: 10px 36px;
     margin-top: 50px;
     border-radius: 5px;
+    background-color: #E02C6D;
+
 }
 
 .mid-btn2 button {
@@ -106,7 +110,6 @@
     padding: 10px 77px;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: #E02C6D;
 }
 
 .blog-img {
@@ -204,4 +207,17 @@ nav a {
     color: aliceblue;
     font-size: 20px;
 
+}
+
+
+.icons {
+    color: #E02C6D;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    font-size: 20px;
+}
+
+.icons a {
+    color: #E02C6D;
 }
